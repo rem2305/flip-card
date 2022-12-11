@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flip card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="card">
+    <div class="card-face card-front">
+      <!-- <img src="img/Front Saint-Seiya-illustration-francisco-etchart (127).png" alt=""> -->
+    </div>
+    <div class="card-face card-back">
+      <!-- <img src="img/Back Saint-Seiya-illustration-francisco-etchart (216).png" alt=""> -->
+    </div>
+  </div>
+
+  <script>
+    var card = document.querySelector('.card');
+    card.addEventListener('click', function(){
+      card.classList.toggle('flip');
+    })
+
+  </script>
+
+</body>
+</html>
